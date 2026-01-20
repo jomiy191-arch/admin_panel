@@ -8,9 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Layout */}
         <Route path="/" element={<Layout />}>
-        
+
           <Route index element={<Navigate to="/students" />} />
 
           {/* Pages */}
