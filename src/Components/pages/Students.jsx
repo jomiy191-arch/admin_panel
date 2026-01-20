@@ -50,7 +50,6 @@ const Students = () => {
               <tr key={student.id} className="border-b hover:bg-gray-50">
                 <td className="p-3">{index + 1}</td>
 
-                {/* Avatar + Name */}
                 <td className="p-3 flex items-center gap-3">
                   <img
                     src={student.img}
