@@ -10,7 +10,7 @@ function App() {
       <Routes>
         {/* Layout */}
         <Route path="/" element={<Layout />}>
-          {/* Default page */}
+        
           <Route index element={<Navigate to="/students" />} />
 
           {/* Pages */}
