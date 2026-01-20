@@ -16,7 +16,6 @@ const initialTeachers = [
 const Teachers = () => {
   const [teachers, setTeachers] = useState(initialTeachers)
 
-  // Status toggle funksiyasi
   const toggleStatus = (id) => {
     setTeachers((prev) =>
       prev.map((teacher) =>
