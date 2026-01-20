@@ -12,7 +12,6 @@ function App() {
 
           <Route index element={<Navigate to="/students" />} />
 
-          {/* Pages */}
           <Route path="students" element={<Students />} />
           <Route path="teachers" element={<Teachers />} />
         </Route>
