@@ -19,7 +19,7 @@ function App() {
         </Route>
 
         {/* 404 */}
-        <Route path="*" element={<h1>Page not fount</h1>} />
+        <Route path="*" element={<h1>Page not found</h1>} />
       </Routes>
     </BrowserRouter>
   )
