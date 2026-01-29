@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Otabek Rahmonov", "subject": "Mathematics", "img": "https://i.pravatar.cc/150?img=21" },
+  { "id": 2, "name": "Dilnoza Karimova", "subject": "English", "img": "https://i.pravatar.cc/150?img=22" },
+  { "id": 3, "name": "Javlon Ismoilov", "subject": "Physics", "img": "https://i.pravatar.cc/150?img=23" },
+  { "id": 4, "name": "Madina Qodirova", "subject": "Chemistry", "img": "https://i.pravatar.cc/150?img=24" },
+  { "id": 5, "name": "Sardor Tursunov", "subject": "Biology", "img": "https://i.pravatar.cc/150?img=25" },
+  { "id": 6, "name": "Zarina Abdullayeva", "subject": "History", "img": "https://i.pravatar.cc/150?img=26" },
+  { "id": 7, "name": "Rustam Jo‘rayev", "subject": "Computer Science", "img": "https://i.pravatar.cc/150?img=27" },
+  { "id": 8, "name": "Nigora Xudoyberdiyeva", "subject": "Geography", "img": "https://i.pravatar.cc/150?img=28" },
+  { "id": 9, "name": "Akmal Sobirov", "subject": "Economics", "img": "https://i.pravatar.cc/150?img=29" },
+  { "id": 10, "name": "Shahnoza Yo‘ldasheva", "subject": "Literature", "img": "https://i.pravatar.cc/150?img=30" },
+  { "id": 11, "name": "Komiljon Azizov", "subject": "Mathematics", "img": "https://i.pravatar.cc/150?img=31" },
+  { "id": 12, "name": "Zuhra Yusupova", "subject": "English", "img": "https://i.pravatar.cc/150?img=32" },
+  { "id": 13, "name": "Shahzod Tursunov", "subject": "Physics", "img": "https://i.pravatar.cc/150?img=33" },
+  { "id": 14, "name": "Dilnoza Sobirova", "subject": "Chemistry", "img": "https://i.pravatar.cc/150?img=34" },
+  { "id": 15, "name": "Olim Karimov", "subject": "Biology", "img": "https://i.pravatar.cc/150?img=35" },
+  { "id": 16, "name": "Nigina Xudoyberdiyeva", "subject": "History", "img": "https://i.pravatar.cc/150?img=36" },
+  { "id": 17, "name": "Rustam Tursunov", "subject": "Computer Science", "img": "https://i.pravatar.cc/150?img=37" },
+  { "id": 18, "name": "Madina Karimova", "subject": "Geography", "img": "https://i.pravatar.cc/150?img=38" },
+  { "id": 19, "name": "Sarvar Sobirov", "subject": "Economics", "img": "https://i.pravatar.cc/150?img=39" },
+  { "id": 20, "name": "Dildora Yusupova", "subject": "Literature", "img": "https://i.pravatar.cc/150?img=40" }
+]

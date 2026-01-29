@@ -1,36 +1,60 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { Users, GraduationCap } from "lucide-react";
 
 const Sidebar = () => {
   return (
-    <div className="w-[300px]  bg-green-500 p-6 text-white">
-      <h1 className="text-4xl font-bold mb-10">Admin</h1>
+    <aside className="fixed top-0 left-0 h-screen w-[280px] bg-gradient-to-b from-green-600 to-green-500 text-white shadow-xl flex flex-col">
+      {/* Avatar */}
+      <div className="flex flex-col items-center py-8 border-b border-white/20">
+        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-lg">
+          <Users className="text-green-600 w-10 h-10" />
+        </div>
+        <h2 className="mt-3 text-xl font-bold">Admin</h2>
+        <p className="text-sm text-white/80">Administrator</p>
+      </div>
 
-      <ul className="space-y-4 text-lg">
-        <li>
-          <NavLink
-            to="/students"
-            className={({ isActive }) =>
-              isActive ? 'text-black font-bold' : 'hover:text-black'
-            }
-          >
-            Students
-          </NavLink>
-        </li>
+      {/* Menu */}
+      <nav className="flex-1 px-6 py-6">
+        <ul className="space-y-3 text-base">
+          <li>
+            <NavLink
+              to="/students"
+              className={({ isActive }) =>
+                `flex items-center gap-3 px-4 py-2 rounded-xl transition ${
+                  isActive
+                    ? "bg-white text-green-600 font-semibold shadow-md"
+                    : "hover:bg-white/20"
+                }`
+              }
+            >
+              <Users size={20} />
+              Students
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/teachers"
+              className={({ isActive }) =>
+                `flex items-center gap-3 px-4 py-2 rounded-xl transition ${
+                  isActive
+                    ? "bg-white text-green-600 font-semibold shadow-md"
+                    : "hover:bg-white/20"
+                }`
+              }
+            >
+              <GraduationCap size={20} />
+              Teachers
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
 
-        <li>
-          <NavLink
-            to="/teachers"
-            className={({ isActive }) =>
-              isActive ? 'text-black font-bold' : 'hover:text-black'
-            }
-          >
-            Teachers
-          </NavLink>
-        </li>
-      </ul>
-    </div>
-  )
-}
+      <div className="px-6 py-4 text-sm text-white/70 border-t border-white/20">
+        © 2026 Admin Panel
+      </div>
+    </aside>
+  );
+};
 
-export default Sidebar
+export default Sidebar;

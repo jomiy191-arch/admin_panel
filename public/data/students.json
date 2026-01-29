@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Ali Karimov", "age": 20, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=1" },
+  { "id": 2, "name": "Dilshod Akbarov", "age": 22, "group": "Backend", "img": "https://i.pravatar.cc/150?img=2" },
+  { "id": 3, "name": "Malika Ismoilova", "age": 19, "group": "Design", "img": "https://i.pravatar.cc/150?img=3" },
+  { "id": 4, "name": "Jasmin Rasulova", "age": 21, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=4" },
+  { "id": 5, "name": "Azizbek Qodirov", "age": 23, "group": "Backend", "img": "https://i.pravatar.cc/150?img=5" },
+  { "id": 6, "name": "Shohruh Tursunov", "age": 20, "group": "Mobile", "img": "https://i.pravatar.cc/150?img=6" },
+  { "id": 7, "name": "Diyorbek Sobirov", "age": 24, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=7" },
+  { "id": 8, "name": "Nigina Yoqubova", "age": 18, "group": "Design", "img": "https://i.pravatar.cc/150?img=8" },
+  { "id": 9, "name": "Sarvar Xudoyberdiyev", "age": 22, "group": "Backend", "img": "https://i.pravatar.cc/150?img=9" },
+  { "id": 10, "name": "Madina Alimuhamedova", "age": 21, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=10" },
+  { "id": 11, "name": "Komiljon Azizov", "age": 20, "group": "Mobile", "img": "https://i.pravatar.cc/150?img=11" },
+  { "id": 12, "name": "Zarina Abdullayeva", "age": 19, "group": "Design", "img": "https://i.pravatar.cc/150?img=12" },
+  { "id": 13, "name": "Rustam Jo‘rayev", "age": 23, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=13" },
+  { "id": 14, "name": "Nigora Xudoyberdiyeva", "age": 21, "group": "Backend", "img": "https://i.pravatar.cc/150?img=14" },
+  { "id": 15, "name": "Akmal Sobirov", "age": 22, "group": "Mobile", "img": "https://i.pravatar.cc/150?img=15" },
+  { "id": 16, "name": "Madina Jo‘rayeva", "age": 20, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=16" },
+  { "id": 17, "name": "Shoira Tursunova", "age": 19, "group": "Design", "img": "https://i.pravatar.cc/150?img=17" },
+  { "id": 18, "name": "Jasur Karimov", "age": 23, "group": "Backend", "img": "https://i.pravatar.cc/150?img=18" },
+  { "id": 19, "name": "Dildora Yusupova", "age": 21, "group": "Frontend", "img": "https://i.pravatar.cc/150?img=19" },
+  { "id": 20, "name": "Bekzod Tursunov", "age": 22, "group": "Mobile", "img": "https://i.pravatar.cc/150?img=20" }
+]
