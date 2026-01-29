@@ -7,7 +7,7 @@ const Layout = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <div className="flex">
+    <div className="flex min-h-screen bg-gray-50">
       {/* Sidebar */}
       <Sidebar />
 
@@ -16,8 +16,8 @@ const Layout = () => {
         {/* Header */}
         <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
-        {/* Outlet (Students / Teachers) */}
-        <main className="mt-[70px] p-6 bg-gray-50 min-h-screen">
+        {/* Outlet (Students / Teachers / Library / Events) */}
+        <main className="mt-[70px] p-6">
           <Outlet context={{ searchTerm }} />
         </main>
       </div>

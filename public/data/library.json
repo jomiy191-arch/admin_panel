@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Mathematics 101",
+    "img": "https://images.unsplash.com/photo-1596495577886-d920f1fb0a87?auto=format&fit=crop&w=80&q=80",
+    "description": "Basic math concepts for beginners."
+  },
+  {
+    "id": 2,
+    "title": "History of Art",
+    "img": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=80&q=80",
+    "description": "Explore art history from ancient to modern times."
+  },
+  {
+    "id": 3,
+    "title": "Physics Fundamentals",
+    "img": "https://images.unsplash.com/photo-1581090464493-047b77d53e61?auto=format&fit=crop&w=80&q=80",
+    "description": "Learn the fundamentals of physics."
+  },
+  {
+    "id": 4,
+    "title": "Chemistry Basics",
+    "img": "https://images.unsplash.com/photo-1581092323865-4c473a8d5f0d?auto=format&fit=crop&w=80&q=80",
+    "description": "Introduction to chemistry for high school students."
+  },
+  {
+    "id": 5,
+    "title": "World Literature",
+    "img": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=80&q=80",
+    "description": "Explore classic and modern literary works."
+  },
+  {
+    "id": 6,
+    "title": "Biology 101",
+    "img": "https://images.unsplash.com/photo-1581093588401-18b8d40bfcaa?auto=format&fit=crop&w=80&q=80",
+    "description": "Basics of biology for beginners."
+  },
+  {
+    "id": 7,
+    "title": "Computer Science Basics",
+    "img": "https://images.unsplash.com/photo-1581091012184-2167d89e2a02?auto=format&fit=crop&w=80&q=80",
+    "description": "Introduction to algorithms and programming."
+  },
+  {
+    "id": 8,
+    "title": "Modern Architecture",
+    "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=80&q=80",
+    "description": "Learn about contemporary architectural styles."
+  },
+  {
+    "id": 9,
+    "title": "Economics Fundamentals",
+    "img": "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=80&q=80",
+    "description": "Understand the core principles of economics."
+  },
+  {
+    "id": 10,
+    "title": "Philosophy and Ethics",
+    "img": "https://images.unsplash.com/photo-1554774853-d6a4a9d1c75f?auto=format&fit=crop&w=80&q=80",
+    "description": "Explore philosophy and ethical thinking."
+  }
+]

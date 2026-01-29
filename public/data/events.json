@@ -1,0 +1,12 @@
+[
+  { "id": 1, "title": "Science Workshop", "description": "Hands-on experiments and fun activities for students.", "img": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=80&q=80" },
+  { "id": 2, "title": "Math Seminar", "description": "Learn advanced math concepts from experts.", "img": "https://images.unsplash.com/photo-1554774853-d6a4a9d1c75f?auto=format&fit=crop&w=80&q=80" },
+  { "id": 3, "title": "Art Exhibition", "description": "Showcase of student artworks and creative projects.", "img": "https://images.unsplash.com/photo-1529067614856-6f51a01c4c9b?auto=format&fit=crop&w=80&q=80" },
+  { "id": 4, "title": "Coding Bootcamp", "description": "Learn JavaScript and React in a week-long camp.", "img": "https://images.unsplash.com/photo-1555949963-aa79dcee9811?auto=format&fit=crop&w=80&q=80" },
+  { "id": 5, "title": "History Lecture", "description": "Deep dive into world history events and figures.", "img": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=80&q=80" },
+  { "id": 6, "title": "Robotics Workshop", "description": "Build and program your own robot.", "img": "https://images.unsplash.com/photo-1581091870626-3e93f3d04c1b?auto=format&fit=crop&w=80&q=80" },
+  { "id": 7, "title": "Creative Writing Seminar", "description": "Enhance your storytelling and writing skills.", "img": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=80&q=80" },
+  { "id": 8, "title": "Photography Exhibition", "description": "Display your photographic work and get feedback.", "img": "https://images.unsplash.com/photo-1529067614856-6f51a01c4c9b?auto=format&fit=crop&w=80&q=80" },
+  { "id": 9, "title": "AI & Machine Learning Bootcamp", "description": "Hands-on introduction to AI and ML concepts.", "img": "https://images.unsplash.com/photo-1581093588401-18b8d40bfcaa?auto=format&fit=crop&w=80&q=80" },
+  { "id": 10, "title": "Music History Lecture", "description": "Learn about music evolution across centuries.", "img": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=80&q=80" }
+]

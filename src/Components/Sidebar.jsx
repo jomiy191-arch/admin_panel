@@ -1,8 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Users, GraduationCap } from "lucide-react";
+import { Users, GraduationCap, BookOpen, Calendar } from "lucide-react";
 
 const Sidebar = () => {
+  const links = [
+    { name: "Students", path: "/students", icon: <Users size={20} /> },
+    { name: "Teachers", path: "/teachers", icon: <GraduationCap size={20} /> },
+    { name: "Library", path: "/library", icon: <BookOpen size={20} /> },
+    { name: "Events", path: "/events", icon: <Calendar size={20} /> },
+  ];
+
   return (
     <aside className="fixed top-0 left-0 h-screen w-[280px] bg-gradient-to-b from-green-600 to-green-500 text-white shadow-xl flex flex-col">
       {/* Avatar */}
@@ -17,36 +24,23 @@ const Sidebar = () => {
       {/* Menu */}
       <nav className="flex-1 px-6 py-6">
         <ul className="space-y-3 text-base">
-          <li>
-            <NavLink
-              to="/students"
-              className={({ isActive }) =>
-                `flex items-center gap-3 px-4 py-2 rounded-xl transition ${
-                  isActive
-                    ? "bg-white text-green-600 font-semibold shadow-md"
-                    : "hover:bg-white/20"
-                }`
-              }
-            >
-              <Users size={20} />
-              Students
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/teachers"
-              className={({ isActive }) =>
-                `flex items-center gap-3 px-4 py-2 rounded-xl transition ${
-                  isActive
-                    ? "bg-white text-green-600 font-semibold shadow-md"
-                    : "hover:bg-white/20"
-                }`
-              }
-            >
-              <GraduationCap size={20} />
-              Teachers
-            </NavLink>
-          </li>
+          {links.map((link) => (
+            <li key={link.name}>
+              <NavLink
+                to={link.path}
+                className={({ isActive }) =>
+                  `flex items-center gap-3 px-4 py-2 rounded-xl transition ${
+                    isActive
+                      ? "bg-white text-green-600 font-semibold shadow-md"
+                      : "hover:bg-white/20"
+                  }`
+                }
+              >
+                {link.icon}
+                {link.name}
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </nav>
 
